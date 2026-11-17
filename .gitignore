@@ -1,0 +1,52 @@
+# ==========================================
+# AZ-104 Study Project
+# ==========================================
+
+# Terraform - local working directory
+.terraform/
+
+# Terraform - state files (may contain secrets)
+*.tfstate
+*.tfstate.*
+
+# Terraform - variable files (may contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Terraform - saved execution plans
+*.tfplan
+*.tfplan.json
+
+# Terraform - crash logs
+crash.log
+crash.*.log
+
+# Terraform - local state lock information
+.terraform.tfstate.lock.info
+
+# Terraform - local override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Private keys and certificates containing private keys
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa
+id_ed25519
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Operating system temporary files
+.DS_Store
+Thumbs.db
